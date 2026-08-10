@@ -1,6 +1,6 @@
 event_inherited()
 
-alpha_bar = 1
+alpha_bar = 0
 
 velh = 0
 velv = 0

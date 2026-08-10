@@ -179,6 +179,7 @@ moviment = function()
 				{
 					delay_grito = irandom_range(20,30) * 60
 						
+					tocar_som(snd_spino_roar)
 					estado = "scream"
 					obj_camera.shake_force = 20
 					obj_camera.shake_time = 3 * 60

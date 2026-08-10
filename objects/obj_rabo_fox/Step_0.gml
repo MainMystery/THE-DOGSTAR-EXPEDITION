@@ -7,6 +7,7 @@ else image_speed = 1
 
 if (global.trop_position) exit
 
+
 image_xscale = dono.imagex
 image_yscale = dono.imagey
 
@@ -16,6 +17,8 @@ inimigos = dono.inimigos
 
 alvo = dono.alvo
 
+
+if (!instance_exists(alvo)) exit
 
 depth = dono.depth + 1
 

@@ -21,7 +21,7 @@ if (dono = obj_player.id)
 	atira = mouse_check_button(mb_left)
 	delay_adicional = 0
 	
-	if (delay_tiro <= 1 && atira) tocar_som(snd_tiro_2)
+	if (delay_tiro <= 1 && atira && pode_usar) tocar_som(snd_tiro_2)
 	
 	if(!select_arma)
 	{
@@ -249,7 +249,7 @@ if (arma = 3)
 	intensidade_brilho = 1
 	tempo = 0.05
 	tipy = 2
-	delay_tiro_tempo = 55
+	delay_tiro_tempo = 4 * 60
 }
 if (arma = 4)
 {

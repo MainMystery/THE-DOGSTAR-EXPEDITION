@@ -39,6 +39,8 @@ if (!vivo)
 	exit
 }
 
+alpha_bar = lerp(alpha_bar,1,0.1)
+
 //alvo não existe
 if (!instance_exists(alvo) || !alvo.vivo)
 {

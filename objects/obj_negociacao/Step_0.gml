@@ -145,4 +145,4 @@ else
 if (x > room_width div 2) tamanhox_dir = -1
 else tamanhox_dir = 1
 
-move_and_collide(velh,velv,obj_player)
+move_and_collide(velh,velv,obj_negociacao,12)

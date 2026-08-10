@@ -44,7 +44,7 @@ if (alvo = obj_player)
 	//aumentar camera
 	if (!boss_die)
 	{
-		if (obj_player.arma.atira)
+		if (mouse_check_button(mb_right))
 		{
 			delay_zoom = 2* 60
 		}

@@ -321,6 +321,8 @@ estados = function()
 			decidiu_next = true
 		}
 		
+		image_blend = c_white
+		
 		if (time_next > 0)
 		{
 			time_next--

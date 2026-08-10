@@ -13,12 +13,12 @@ if (causa_dano)
 	
 	var ini = instance_place(x,y,[obj_player,obj_aliados])
 
-	if (ini != noone && ali.i_frame <= 0)
+	if (ini != noone && ini.i_frame <= 0)
 	{
-		ali.brilho = 1
-		ali.vida -= irandom_range(5,5 + 8)
+		ini.brilho = 1
+		ini.vida -= irandom_range(5,5 + 8)
 			
-		ali.i_frame = 15
+		ini.i_frame = 15
 			
 		with (ini)
 		{

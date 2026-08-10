@@ -396,3 +396,6 @@ if (room = rm_planeta)
 	
 	audio_sound_gain(Boss_Fight, 0,  3 * 60)
 }
+
+
+if (keyboard_check_pressed(vk_f11)) window_set_fullscreen(true)
