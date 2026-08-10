@@ -32,7 +32,7 @@ vida_max = 150
 //criar as decorações do mundo
 if (room = rm_planeta)
 {
-	for (i = 0; i < irandom_range(10,25); i ++)
+	for (i = 0; i < irandom_range(10,50); i ++)
 	{
 		var xx = choose(irandom_range(x - 1000,x - 200),irandom_range(x + 200,x + 1000))
 		var yy = choose(irandom_range(y - 1000,y - 200),irandom_range(y + 200,y + 1000))

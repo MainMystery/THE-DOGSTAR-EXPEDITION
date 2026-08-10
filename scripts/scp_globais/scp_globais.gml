@@ -12,9 +12,9 @@ global.soldados_qtd = 0
 
 global.qtd_radianita = 0
 
-global.destino = 2
+global.destino = 0
 
-global.area_destino = 4
+global.area_destino = 1
 
 global.interface = 0
 
