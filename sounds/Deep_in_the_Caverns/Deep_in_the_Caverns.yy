@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Deep_in_the_Caverns",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":78.92,
+  "name":"Deep_in_the_Caverns",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Deep_in_the_Caverns.mp3",
+  "type":0,
+  "volume":1.0,
+}

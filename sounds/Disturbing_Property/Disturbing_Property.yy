@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"Disturbing_Property",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":115.224014,
+  "name":"Disturbing_Property",
+  "parent":{
+    "name":"Sounds",
+    "path":"folders/Sounds.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Disturbing_Property.mp3",
+  "type":0,
+  "volume":1.0,
+}
